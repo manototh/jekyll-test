@@ -28,7 +28,7 @@ footer-links:
   instagram:
   linkedin: 
   pinterest:
-  rss: rss
+  rss: 
   twitter: manototh
   stackoverflow: 
   youtube: # channel/<your_long_string> or user/<user-name>
@@ -96,4 +96,3 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
-
