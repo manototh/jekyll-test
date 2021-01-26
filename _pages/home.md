@@ -4,4 +4,4 @@ title: Blog
 permalink: /
 ---
 
-What
+About me
