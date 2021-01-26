@@ -4,7 +4,7 @@ title: Blog
 permalink: /blog/
 ---
 
-<div class="posts" markdown="0">
+<div class="posts">
   {% for post in paginator.posts %}
     <article class="post">
       <a href="{{ site.baseurl }}{{ post.url }}">
