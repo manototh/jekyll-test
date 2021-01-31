@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Blog
-permalink: /blog/
 ---
 
 <div class="posts">
@@ -22,9 +21,9 @@ permalink: /blog/
   {% if paginator.total_pages > 1 %}
   <div class="pagination">
     {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a>
     {% else %}
-      <span>&laquo; Prev</span>
+      <span>&laquo;</span>
     {% endif %}
     {% for page in (1..paginator.total_pages) %}
       {% if page == paginator.page %}
@@ -36,9 +35,9 @@ permalink: /blog/
       {% endif %}
     {% endfor %}
     {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&raquo;</a>
     {% else %}
-      <span>Next &raquo;</span>
+      <span>&raquo;</span>
     {% endif %}
   </div>
   {% endif %}
