@@ -29,7 +29,7 @@ title: Blog
       {% if page == paginator.page %}
         <span class="webjeda">{{ page }}</span>
       {% elsif page == 1 %}
-        <a href="{{ '/' | prepend: site.blogurl | replace: '//', '/' }}">{{ page }}</a>
+        <a href="{{ '/' | prepend: site.siteurl | replace: '//', '/' }}">{{ page }}</a>
       {% else %}
         <a href="{{ site.paginate_path | prepend: site.siteurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
       {% endif %}
